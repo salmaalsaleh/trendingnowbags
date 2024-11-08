@@ -2,20 +2,26 @@ nav ul li{
     list-style: none;
     height: 50px;
     display: inline;
-    margin-left: 40px;
+    margin-left: 80px;
     border-radius: 10px;
-
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.button{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .hello{
     text-align: center;
     border-radius: 50px;
     color: rgb(58, 38, 11);
 }
-
+.head{
+    text-align: center;
+}
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-style: italic;
 }
 .nav{
     border: black solid 1px;
@@ -37,19 +43,16 @@ body{
     scale: 0.75;
 }
 .isa{
-    margin-left: 40vw;
+    margin-left: 45vw;
     color: black;
+    font-style: italic;
+    font-weight: lighter;
+    
 }
-.isa:hover{
-    scale: 1.5;
-}
-.suede{
-    margin-left: 40vw;
-}
+
+
 .stud{
     margin-left: 40vw;
-}
-.zad{
-    margin-left: 40vw;
-    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  
 }
